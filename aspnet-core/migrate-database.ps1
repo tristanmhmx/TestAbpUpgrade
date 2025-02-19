@@ -1,0 +1,1 @@
+dotnet run --project TestUpgrade --migrate-database

@@ -1,0 +1,21 @@
+{
+  "production": true,
+  "application": {
+    "baseUrl":"https://testupgrade-web",
+    "name": "TestUpgrade",
+    "logoUrl": ""
+  },
+  "oAuthConfig": {
+    "issuer": "https://testupgrade-api/",
+    "redirectUri": "https://testupgrade",
+    "clientId": "TestUpgrade_App",
+    "responseType": "code",
+    "scope": "offline_access openid profile email phone"
+  },
+  "apis": {
+    "default": {
+      "url": "https://testupgrade-api",
+      "rootNamespace": "TestUpgrade"
+    }
+  }
+}
